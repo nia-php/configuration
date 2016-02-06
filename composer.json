@@ -1,0 +1,24 @@
+{
+  "name" : "nia/configuration",
+  "description" : "nia component for simple configuration file parsing.",
+  "require" : {
+    "php" : ">=7.0.0",
+    "nia/collection-map-stringmap" : "*"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "config", "configuration" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Configuration\\" : "sources/",
+      "Test\\Nia\\Configuration\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
